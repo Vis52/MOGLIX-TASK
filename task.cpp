@@ -25,11 +25,12 @@ public:
         }
         return maxLen;}
 };
+int main() 
+{
 
-int main() {
     Solution sol;
-    cout << sol.longestValidParentheses("(()") << endl;      
-    cout << sol.longestValidParentheses(")()())") << endl;    
-    cout << sol.longestValidParentheses("()(()())") << endl;         
+    cout<<sol.longestValidParentheses("(()")<<endl;      
+    cout<<sol.longestValidParentheses(")(())())")<<endl;    
+           
     return 0;
 };
