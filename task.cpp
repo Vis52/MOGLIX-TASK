@@ -31,6 +31,6 @@ int main() {
     Solution sol;
     cout << sol.longestValidParentheses("(()") << endl;     
     cout << sol.longestValidParentheses(")()())") << endl;    
-    cout << sol.longestValidParentheses("()(vishal)((()))") << endl;          
+    cout << sol.longestValidParentheses("()(vishal sharma)((()))") << endl;          
     return 0;
 }
